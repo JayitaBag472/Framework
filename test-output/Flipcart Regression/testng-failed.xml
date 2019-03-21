@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" verbose="10" name="Failed suite [Flipcart Regression]">
+  <parameter name="Browser" value="chrome"/>
+  <test name="Add to cart chrome(failed)">
+    <classes>
+      <class name="TestScripts.Tc_Registraction">
+        <methods>
+          <include name="tearDown"/>
+          <include name="registration"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestScripts.Tc_Registraction -->
+      <class name="TestScripts.Tc_Search">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- TestScripts.Tc_Search -->
+    </classes>
+  </test> <!-- Add to cart chrome(failed) -->
+</suite> <!-- Failed suite [Flipcart Regression] -->

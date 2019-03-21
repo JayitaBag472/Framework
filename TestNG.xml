@@ -1,0 +1,11 @@
+<suite name="Flipcart Regression" parallel="false" thread-count="10" verbose="10">
+	<parameter name="Browser" value="chrome"/>
+	<test name="Add to cart chrome">		
+		<classes>
+			<class name="BaseClass.BaseClass" />
+			<class name="TestScripts.Tc_Registraction" />
+			<class name="TestScripts.Tc_Search" />
+			<class name="TestScripts.TC_Staticlinks" />
+		</classes>
+	</test>
+</suite>
